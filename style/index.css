@@ -1,0 +1,46 @@
+.main-section{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 1fr;
+}
+
+.main-section p,h2,h1,div{
+    position: relative;
+}
+
+.main-left h1,h2,p,i{
+    padding-left: 120px;
+}
+
+.main-left {
+    margin-left: 10vw;
+}
+.main-left h2{
+    margin-top: 23vh;
+    top: 12px;
+    font-family: "Damion", sans-serif;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+.main-left h1{
+    font-size: 5em;
+}
+
+.main-left p{
+    font-size: 1.3em;
+}
+
+.media {
+    top: 30px;
+}
+
+.fa-facebook,.fa-github{
+    padding-left: 10px;
+}
+
+.main-right img{
+    height: 85vh;
+    width: 40vw;
+    margin-left: 3vw;
+}

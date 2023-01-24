@@ -1,0 +1,92 @@
+.hobbies-menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10vh;
+}
+.icon{
+    transition: transform 0.7s;
+    padding: 0 3vw;
+    position: relative;
+}
+
+.icon:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.icon-wrap{
+    border-right: 3px solid rgba(0, 0, 0, 0.505);
+}
+
+.content-wrap h1,p,iframe{
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+
+
+iframe{
+    display: block;
+}
+
+.gallery{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+}
+
+.img-container{
+    position: relative;
+    display: inline-block;
+}
+
+.hobbie-img{
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.422);
+}
+
+.guitar-body{
+    display: flex;
+}
+
+#guitar-img {
+    margin-left: 5vw;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 10px;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding: 0 1vw;
+}
+
+.text:hover{
+    cursor: default;
+}
+
+.row-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.img-container:hover .overlay{
+    opacity: 1;
+}
+#gaming,#coding,#sports,#guitar{
+    display: none;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/085c9fe9d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main-page.css">
+  </head>
+
+  <body>
+    <div id="menu">
+      <ul> 
+        <li id="pen" class="tool" style="margin-left: 2px;" onclick="choose(this.id)"><i class="fa-solid fa-pencil"></i></li>
+        <li class="picker"><input id="color-picker" type="color" oninput="changeColor()"></li>
+        <li id="eraser" class="tool" onclick="choose(this.id)"><i class="fa-solid fa-eraser"></i></li>
+        <!-- <li style="background-color: white;"><label for="size">size</label><input type="range" id="size" min="0" max="24" step="2"></li> -->
+      </ul>
+    </div>
+    <div id="canvas-area">
+      <canvas id="board" width="800" height="320"></canvas>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

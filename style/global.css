@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Damion|Rubik|Bree+Serif);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100;
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: rgb(242, 242, 242);
+    display: grid;
+    grid-template-rows: 50px 2px 1fr;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.main-section{
+    max-width: 1700px;
+    /* 
+    margin-left: auto;
+    margin-right: auto; 
+    */
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+    font-family: "Rubik", sans-serif;
+}
+/* 
+.middle{
+    height: 100%;
+    width: 100%;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+} */
