@@ -37,10 +37,12 @@ function show_section(sect){
 }
 
 window.addEventListener("resize", ()=>{
-    if(window.innerWidth <= 640) {
-        sections[currnet_section].style.display = "flex";
-    }
-    else{
-        sections[currnet_section].style.display = "block";
+    if(currnet_section != NaN){
+        if(window.innerWidth <= 640) {
+            sections[currnet_section].style.display = "flex";
+        }
+        else{
+            sections[currnet_section].style.display = "block";
+        }
     }
 });
