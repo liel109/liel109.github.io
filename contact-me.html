@@ -21,8 +21,8 @@
         <div class="seperator"></div>
         <div class="main-section">
             <h1>Contact Me</h1>
-            <form id="contact-form" action="none">
-                <input type="text" class="text" id="name" name="name" placeholder="Your Name" onfocus="remove_text('name')"><br><br>
+            <form id="contact-form" method="post" enctype="text/plain" onsubmit="return validate()">
+                <input type="text" class="text" id="name" name="name" placeholder="Your Name*" onfocus="remove_text('name')"><br><br>
                 <input type="text" class="text" id="phone-number" name="phone-number" placeholder="Phone Number" onfocus="remove_text('phone')"><br><br>
                 <textarea id="message" name="message" placeholder="Your Message Here..." class="text" onfocus="remove_text('message')"></textarea><br><br>
                 <input type="submit" name="submit" value="Submit">
