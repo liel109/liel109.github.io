@@ -1,20 +1,12 @@
 .main-section{
-    display: grid;
-    grid-template-columns: 55% 45%;
-    grid-template-rows: 1fr;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.main-section p,h2,h1,div{
+.main-left p,h2,h1,div{
     position: relative;
 }
 
-.main-left h1,h2,p,i{
-    padding-left: 120px;
-}
-
-.main-left {
-    margin-left: 10vw;
-}
 .main-left h2{
     margin-top: 23vh;
     top: 12px;
@@ -32,15 +24,38 @@
 }
 
 .media {
-    top: 30px;
+    margin-top: 30px;
 }
 
 .fa-facebook,.fa-github{
     padding-left: 10px;
 }
 
-.main-right img{
-    height: 85vh;
-    width: 40vw;
-    margin-left: 3vw;
+img{
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.422);
+    max-width: 100%;
+    margin-top: 14vh;
+}
+
+@media only screen and (max-width: 1000px){
+    .main-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: x-large;
+    }
+
+    .main-left h2{
+        margin-top: 10vmin;
+    }
+
+    .img-container{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        margin-top: 100px;
+    }
+
 }
