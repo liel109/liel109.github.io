@@ -29,6 +29,11 @@ a {
     background-size: cover;
     font-family: "Rubik", sans-serif;
 }
+
+textarea
+{
+    resize: none;
+}
 /* 
 .middle{
     height: 100%;
