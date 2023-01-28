@@ -4,7 +4,7 @@
     align-items: center;
 }
 .main-section h1{
-    margin-top: 6vh;
+    margin-top: 6vmin;
     color: rgb(1, 0, 43);;
 }
 form{
@@ -13,7 +13,7 @@ form{
     text-align: center;
 }
 .text{
-    width: 30vw;
+    width: 30vmax;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;
     padding: 4px;
@@ -21,7 +21,7 @@ form{
     background-color: rgba(255, 255, 255, 0.703);
     outline: none;
     border: 1px solid rgb(231, 231, 231);
-    margin-top: 3vh;
+    margin-top: 3vmin;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.243);
     transition: color 0.1s;
 }
@@ -35,7 +35,7 @@ input[type="submit"]{
     font-weight: bold;
     border: none;
     padding: 8px;
-    width: 20vw;
+    width: 20vmax;
     border-radius: 6px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.464);
     transition: 0.3s;
@@ -51,6 +51,6 @@ input[type="submit"]:active{
 }
 
 #message{
-    width: 30vw;
-    height: 20vh;
+    width: 30vmax;
+    height: 20vmax;
 }

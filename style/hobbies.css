@@ -48,11 +48,11 @@ iframe{
 .img-container{
     position: relative;
     display: inline-block;
-}
+}/* 
 img{
     max-width: 100%;
     height: auto;
-}
+} */
 .hobbie-img{
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.422);
