@@ -1,3 +1,5 @@
+"use strict";
+
 let name_box = document.getElementById('name');
 let phone_box = document.getElementById('phone-number');
 let message_box = document.getElementById('message');
