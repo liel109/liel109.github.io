@@ -20,14 +20,14 @@ message_box.addEventListener('focusout', () =>{message_box.placeholder = placeho
  * 
  * Being called evey time an input element is getting focused on.
  * 
- * @param the input element that was focused  
+ * @param {String} box - the input element that was focused  
  */
 function remove_text(box){
     dict[box].placeholder = "";
 }
 
 /**
- * Validates the input after the form has been sent by the user.
+ * Validates the input after the form has been sent by the user and sets the form action to mailto.
  */
 function validate(){
     if(name_box.value == ""){
