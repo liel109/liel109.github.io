@@ -32,17 +32,18 @@ a {
     font-family: "Rubik", sans-serif;
 }
 
-textarea
-{
+textarea {
     resize: none;
 }
-/* 
-.middle{
-    height: 100%;
-    width: 100%;
-    max-width: 1700px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../images/background1.jpg);
-    background-size: cover;
-} */
+
+@media only screen and (max-width: 600px){
+    body {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    body {
+        font-size: x-small;
+    }
+}

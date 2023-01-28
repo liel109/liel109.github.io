@@ -30,3 +30,15 @@ a.nav-link:hover{
     height: 2px;
     background-image: linear-gradient(rgb(189, 189, 189),rgb(230, 230, 230),rgb(230, 230, 230),rgb(190, 190, 190));
 }
+
+@media screen and (max-width: 460px){
+    .navbar{
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .navbar{
+        font-size: xx-small;
+    }
+}

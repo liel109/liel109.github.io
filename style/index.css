@@ -43,7 +43,6 @@ img{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        font-size: x-large;
     }
 
     .main-left h2{
@@ -55,7 +54,7 @@ img{
         justify-content: center;
     }
     img{
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
 }

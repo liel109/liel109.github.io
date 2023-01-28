@@ -21,13 +21,20 @@
 
 .content-wrap h1,p,iframe{
     margin-top: 5vh;
-    margin-left: 20vw;
+    padding-left: 13vw;
 }
 
-#apple-music{
-    margin-left: 20vw;
+.apple-music{
+    margin-left: 13vw;
     margin-top: 1vh;
 }
+
+.regular-link{
+    color: blue;
+    text-decoration: underline;
+}
+
+
 iframe{
     display: block;
 }
@@ -42,7 +49,10 @@ iframe{
     position: relative;
     display: inline-block;
 }
-
+img{
+    max-width: 100%;
+    height: auto;
+}
 .hobbie-img{
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.422);
@@ -92,4 +102,51 @@ iframe{
 }
 #gaming,#coding,#sports,#guitar{
     display: none;
+}
+
+@media only screen and (max-width: 700px){
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-wrap h1,p,iframe{
+        width: 100%;
+        padding-left: 0;
+        text-align: center;;
+    }
+    iframe{
+        margin-left: 0;
+        width: 90%;
+        height: 280px;
+    }
+    .row-wrap{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .img-container{
+        padding-top: 10px;
+    }
+    .guitar-body{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #guitar-img {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .apple-music{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    
 }
